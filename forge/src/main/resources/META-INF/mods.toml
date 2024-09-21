@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/JensenJ-Modding/YouShallNotDump"
+license = "MIT License"
+
+[[mods]]
+modId = "youshallnotdump"
+version = "${version}"
+displayName = "YouShallNotDump"
+authors = "JensenBradley"
+description = '''
+This mods stops f3+s from being used.
+'''
+
+[[dependencies.youshallnotdump]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.youshallnotdump]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
