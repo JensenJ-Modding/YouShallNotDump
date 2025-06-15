@@ -1,0 +1,5 @@
+plugins {
+    id 'com.gradleup.shadow'
+}
+
+apply from: 'https://raw.githubusercontent.com/JensenJ-Modding/Mod-Resources/refs/heads/main/1.21.1/Gradle/neoforge-build.gradle'

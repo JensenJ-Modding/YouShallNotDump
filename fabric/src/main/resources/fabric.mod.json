@@ -5,20 +5,19 @@
   "name": "YouShallNotDump",
   "description": "This mods stops f3+s from being used.",
   "authors": [
-    "JensenBradley"
+    "JensenJ - Developer"
   ],
   "contact": {
-    "sources": "https://github.com/JensenJ-Modding/YouShallNotDump"
+    "sources": "https://github.com/JensenJ-Modding/YouShallNotDump",
+    "issues": "https://github.com/JensenJ-Modding/YouShallNotPatrol/issues"
   },
-  "license": "CC0-1.0",
+  "license": "MIT License",
   "environment": "*",
   "mixins": [
-    "youshallnotdump.mixins.json"
+    "youshallnotdump-common.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.5",
-    "minecraft": "~1.20.1",
-    "java": ">=17",
-    "fabric-api": "*"
+    "fabric": "*",
+    "minecraft": ">=1.21.1"
   }
 }
