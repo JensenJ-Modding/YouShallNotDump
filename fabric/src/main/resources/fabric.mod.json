@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "youshallnotdump",
   "version": "${version}",
-  "name": "YouShallNotDump",
+  "name": "You Shall Not Dump",
   "description": "This mods stops f3+s from being used.",
   "authors": [
     "JensenJ - Developer"

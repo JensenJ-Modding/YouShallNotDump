@@ -6,7 +6,7 @@ license = "MIT License"
 [[mods]]
 modId = "youshallnotdump"
 version = "${version}"
-displayName = "YouShallNotDump"
+displayName = "You Shall Not Dump"
 authors = "JensenJ - Developer"
 description = '''
 This mod stops f3+s from being used.
